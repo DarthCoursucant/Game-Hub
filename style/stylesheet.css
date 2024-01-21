@@ -191,6 +191,11 @@ button {
     padding: -50px;
   }
 
+  /*Icons Placement*/
+  .flex-icons > div {
+    padding-left: 20px;
+  }
+
 /*Icon Size Code*/
 .flex-icons img {
     width: 50px;
@@ -211,11 +216,14 @@ button {
     text-align: center;
     width: 120px;
     margin-left: -15px;
+    font-size: 15px;
+    line-height: 19px;
 }
 
 .icon-button a {
     text-decoration: none;
     text-align: center;
+    color: #000000; 
 }
 
 .hero-image {
@@ -247,3 +255,47 @@ button {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .flex-parent > div {
+    text-align: center;
+  }
+
+  .flex-parent a {
+    text-decoration: none;
+  }
+
+/*Flex Setting To Hero Images*/
+.flex-parent, .flex-parent1 {
+    display: flex;
+    padding-top: 40px;
+}
+      
+      /*Hero Images Flex Main Setting*/
+      .flex-parent > div, .flex-parent1 > div {
+        font-family: monospace;
+        width: 300px;
+        height: 200px;
+        line-height: 20px;
+        font-size: 15px;
+      }
+      
+      .flex-parent, .flex-parent1 {
+        margin-top: 40px;
+      }
+      
+      .flex-parent a, .flex-parent1 a {
+        font-size: 17px; 
+        line-height: 25px;
+        border: 2px solid #ed0404;
+      }
+      
+      .flex-parent a, .flex-parent1 a {
+      background-color: #ffffff;
+      border-radius: 15px;
+      color: #000000;
+      }
+      
+      .flex-parent a:hover, .flex-parent1 a:hover {
+        background-color: #000000;
+        color: #ffffff;
+      }
