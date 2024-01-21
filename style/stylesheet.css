@@ -28,8 +28,53 @@ main.page-body {
 /* Header Settings */
 .page-header {
     overflow: hidden;
-    background-color: #ed0404;
     margin: 8px;
     height: 145px;
 }
 
+/* Links In Header Code */
+.page-header a {
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 10px;
+}
+
+/* Background Of Links In Header While Hoover */
+.page-header a:hover {
+    background-color: #C0A9BD;
+    color: black;
+}
+
+/* Active Link In Header*/
+.page-header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+/* Logo Position Setting */
+.header-left {
+    padding: -25px;
+    border-radius: 30px;
+    background-color: purple;
+    border: 3px solid #000000;
+    margin-left: 20px;
+    margin-top: -15px;
+  }
+
+.header-left {
+    margin-top: -20px;
+    margin-left: 115px;
+    display: block;
+  }
+
+.icons-header {
+    float: right;
+    margin-top: -70px;
+  }
+  
+.icons-header img {
+    height: 50px;
+    width: 50px;
+  }
