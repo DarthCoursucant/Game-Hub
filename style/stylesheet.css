@@ -258,6 +258,7 @@ button {
 
   .flex-parent > div {
     text-align: center;
+    color: #ffffff;
   }
 
   .flex-parent a {
