@@ -217,3 +217,33 @@ button {
     text-decoration: none;
     text-align: center;
 }
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.cnn.com/api/v1/images/stellar/prod/i-stock-1287493837-1.jpg?c=16x9&q=w_800,c_fill')
+  }
+  
+  .hero-image1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.mos.cms.futurecdn.net/MuHXJCguraXv9UiUQoHsBo.jpg')
+  }
+  
+  .hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=')
+  }
+
+  .hero-image3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/MRI4xt8iJOk/maxresdefault.jpg")
+  }
+
+  .hero-image, .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-image12 {
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-image, .hero-image1, .hero-image2, .hero-image3, .hero-image9, .hero-image10, .hero-image11, .hero-image12 {
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
