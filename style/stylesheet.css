@@ -202,3 +202,18 @@ button {
 #icon {
     padding-left: 15px;
   }
+
+/*Icon Button Code*/
+.icon-button {
+    border: 2px solid black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    width: 120px;
+    margin-left: -15px;
+}
+
+.icon-button a {
+    text-decoration: none;
+    text-align: center;
+}
