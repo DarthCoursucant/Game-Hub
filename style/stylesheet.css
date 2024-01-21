@@ -1,0 +1,35 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #045d5d;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header.page-header, footer.page-footer {
+    flex-grow: 0; /*Takes the place it needs*/
+    flex-shrink: 0;
+    color: #ffffff;
+    color: black;
+}
+
+main.page-body {
+    flex-grow: 1; /*Takes The Avaible Place*/
+    padding: 0 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+/* Header Settings */
+.page-header {
+    overflow: hidden;
+    background-color: #ed0404;
+    margin: 8px;
+    height: 145px;
+}
+
