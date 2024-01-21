@@ -270,6 +270,10 @@ button {
     position: relative;
   }
 
+  .hero-text, .hero-text1, .hero-text2, .hero-text3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-text11, .hero-text12 {
+    color: #ffffff;
+  }
+
   .hero-image, .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7 {
     padding: 20px;
     padding-left: 20px;
@@ -333,4 +337,43 @@ button {
 .flex-parent, .flex-parent1 {
     display: flex;
     padding-top: 40px;
+  }
+
+  .flex-content-popular {
+    display: flex;
+  }
+
+  .item-sell {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 80px;
+  }
+
+  .price {
+    color: gray;
+    font-size: 22px;
+  }
+
+  .item-card-buttom {
+    border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  }
+
+  .item-card-buttom:hover {
+    opacity: 0.7;
+  }
+  
+  .item-sell img {
+    height: 230px;
+    width: 250px;
   }
