@@ -270,32 +270,32 @@ button {
     padding-top: 40px;
 }
       
-      /*Hero Images Flex Main Setting*/
-      .flex-parent > div, .flex-parent1 > div {
-        font-family: monospace;
-        width: 300px;
-        height: 200px;
-        line-height: 20px;
-        font-size: 15px;
-      }
+/*Hero Images Flex Main Setting*/
+.flex-parent > div, .flex-parent1 > div {
+    font-family: monospace;
+    width: 300px;
+    height: 200px;
+    line-height: 20px;
+    font-size: 15px;
+}
       
-      .flex-parent, .flex-parent1 {
-        margin-top: 40px;
-      }
+.flex-parent, .flex-parent1 {
+    margin-top: 40px;
+}
       
-      .flex-parent a, .flex-parent1 a {
-        font-size: 17px; 
-        line-height: 25px;
-        border: 2px solid #ed0404;
-      }
+.flex-parent a, .flex-parent1 a {
+    font-size: 17px; 
+    line-height: 25px;
+    border: 2px solid #ed0404;
+}
       
-      .flex-parent a, .flex-parent1 a {
-      background-color: #ffffff;
-      border-radius: 15px;
-      color: #000000;
-      }
+.flex-parent a, .flex-parent1 a {
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #000000;
+}
       
-      .flex-parent a:hover, .flex-parent1 a:hover {
-        background-color: #000000;
-        color: #ffffff;
-      }
+.flex-parent a:hover, .flex-parent1 a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
