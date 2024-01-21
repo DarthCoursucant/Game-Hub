@@ -16,7 +16,7 @@ GameStop, Cdon, Elkjøp,
 All Images Dowloaded From Google
 
 <Icons Info>
-All Images Dowloaded From Icon8.com
+All Icons Dowloaded From Icon8.com
 
 
 Example of a sildesgow gallery
