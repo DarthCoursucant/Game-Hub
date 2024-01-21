@@ -39,6 +39,9 @@ main.page-body {
     font-size: 17px;
     line-height: 25px;
     margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
 }
 
 /* Background Of Links In Header While Hoover */
@@ -61,6 +64,7 @@ main.page-body {
     border: 3px solid #000000;
     margin-left: 20px;
     margin-top: -15px;
+    float: left;
   }
 
 .header-left {
@@ -78,6 +82,15 @@ main.page-body {
     height: 50px;
     width: 50px;
   }
+
+/*Float Left Classes */
+.headerbutton {
+    float: left;
+  }
+
+.search-container {
+    text-align: center;
+}
 
 /*Input Search Box Code*/
 input[type="text"] {
